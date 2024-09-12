@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="3.1" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd">
+    <!--    <servlet>
+        <servlet-name>AddSpecialist</servlet-name>
+        <servlet-class>com.admin.servlet.AddSpecialist</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>AddSpecialists</servlet-name>
+        <servlet-class>com.admin.servlet.AddSpecialists</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>AddSpecialist</servlet-name>
+        <url-pattern>/AddSpecialist</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>AddSpecialists</servlet-name>
+        <url-pattern>/AddSpecialists</url-pattern>
+    </servlet-mapping>-->
+    <servlet>
+        <servlet-name>addDoctors</servlet-name>
+        <servlet-class>com.admin.servlet.addDoctors</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>addDoctors</servlet-name>
+        <url-pattern>/addDoctors</url-pattern>
+    </servlet-mapping>
+    <session-config>
+        <session-timeout>
+            30
+        </session-timeout>
+    </session-config>
+</web-app>
